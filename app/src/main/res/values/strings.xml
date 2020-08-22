@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">圈圈圆圆</string>
+    <!-- Strings related to login -->
+    <string name="mobile">手机号码</string>
+    <string name="password">密码</string>
+    <string name="input_some">随便输点</string>
+    <string name="action_sign_in">登录</string>
+    <string name="action_register">注册</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">登录失败</string>
+    <string name="avatar">头像</string>
+</resources>

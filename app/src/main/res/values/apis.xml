@@ -1,0 +1,4 @@
+<resources>
+    <string name="host">"http://10.0.2.2:8000/"</string>
+    <string name="login">"polls/login"</string>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".HomeActivity"
+        >
+
+    <TextView
+            android:text="@string/input_some"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:id="@+id/homeView"
+            tools:layout_editor_absoluteY="108dp"
+            android:layout_marginEnd="100dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:text="sdadsa"
+            android:textSize="36sp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="1dp"
+            tools:ignore="MissingConstraints"
+            app:layout_constraintHorizontal_bias="1.0"
+            android:textColor="#03A9F4"
+            android:lineSpacingExtra="36sp"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_launcher_background"
+            android:id="@+id/imageView2"
+            tools:layout_editor_absoluteX="119dp"
+            tools:ignore="MissingConstraints"
+            android:contentDescription="@string/avatar"
+            android:layout_marginTop="236dp"
+            app:layout_constraintTop_toBottomOf="@+id/homeView"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
